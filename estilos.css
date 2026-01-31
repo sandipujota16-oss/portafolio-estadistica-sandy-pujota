@@ -393,3 +393,82 @@ main {
 .boton-tema:hover::before {
     left: 100%;
 }
+/* ===== INTRODUCCIÓN / PORTADA ===== */
+.introduccion {
+    background: linear-gradient(135deg, #1b263b, #0d1b2a);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.introduccion h2 {
+    text-align: center;
+    color: #ffd60a;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.introduccion p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 12px;
+    color: #e0e0e0;
+}
+/* ===== PORTADA / INTRODUCCIÓN ESTILO AVATAR ===== */
+.introduccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 40px 30px;
+    max-width: 900px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Avatar circular */
+.avatar {
+    width: 110px;
+    height: 110px;
+    background: radial-gradient(circle at top, #00eaff, #0077ff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 25px rgba(0, 234, 255, 0.8);
+}
+
+/* Texto */
+.intro-texto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #a8f7ff;
+}
+
+.intro-texto p {
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #e6f9ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .introduccion {
+        padding: 30px 20px;
+    }
+
+    .intro-texto h2 {
+        font-size: 1.6em;
+    }
+}
