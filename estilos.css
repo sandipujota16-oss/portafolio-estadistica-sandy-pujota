@@ -1,0 +1,98 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+}
+
+/* ===== ENCABEZADO ===== */
+header {
+    background: linear-gradient(90deg, #ffd200, #ffea00);
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+header h1 {
+    margin: 0;
+    color: #2c2c2c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* ===== BOTONES DE UNIDAD ===== */
+.boton-unidad {
+    display: block;
+    padding: 14px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-unidad:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 18px rgba(0,0,0,0.4);
+}
+
+/* ===== BOTONES DE TEMA ===== */
+.boton-tema {
+    display: block;
+    padding: 12px;
+    margin: 6px 0;
+    margin-left: 20px;
+    background: linear-gradient(135deg, #7ed957, #2ecc71);
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-tema:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+}
+
+/* ===== LISTA DE PDFs ===== */
+.lista-pdf a {
+    display: block;
+    margin-left: 45px;
+    padding: 10px;
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+    border-left: 4px solid #ffd200;
+    backdrop-filter: blur(6px);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.lista-pdf a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateX(5px);
+}
+
+/* ===== CONTENEDORES ===== */
+.unidad {
+    margin-bottom: 20px;
+}
+
+.temas {
+    margin-top: 10px;
+}
